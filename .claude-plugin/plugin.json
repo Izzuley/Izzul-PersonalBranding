@@ -1,0 +1,16 @@
+{
+  "name": "izzul-brand",
+  "description": "An evidence-led, provisional personal brand system for Muhammad Izzul Islam Faisal: consulting quotations, proposals, technical reports, presentations, and personal website work.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Muhammad Izzul Islam Faisal"
+  },
+  "keywords": [
+    "brand",
+    "design-system",
+    "consulting",
+    "portfolio",
+    "templates",
+    "explainable-ai"
+  ]
+}
