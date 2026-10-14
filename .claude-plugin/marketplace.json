@@ -1,0 +1,18 @@
+{
+  "name": "izzul-personal-brand",
+  "description": "Personal Claude Code brand design system and document template skill",
+  "owner": {
+    "name": "Muhammad Izzul Islam Faisal"
+  },
+  "plugins": [
+    {
+      "name": "izzul-brand",
+      "source": "./",
+      "description": "Evidence-led personal brand guidelines, design tokens and templates",
+      "version": "0.2.0",
+      "author": {
+        "name": "Muhammad Izzul Islam Faisal"
+      }
+    }
+  ]
+}
