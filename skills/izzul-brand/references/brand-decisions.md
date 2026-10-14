@@ -31,3 +31,9 @@ When approved, write a new section:
 `YYYY-MM-DD — [decision]; exact owner wording: “…”; applies to: […]; supersedes: […].`
 
 Keep a brief decision history rather than silently rewriting previous user decisions.
+
+## 2026-10-15 — Quotation identity and document application
+
+Source: direct owner implementation brief. Exact approved professional title for the requested consulting quotation: “Data Scientist & ML Engineer | Healthcare AI & Explainable AI Specialist”. Exact identity instruction: “Issue the quotation under my personal name.” Applies to quotation generation; does not establish a registered consultancy or change the separate startup's identity. Public reusable templates retain identity/contact placeholders; engagement-specific details stay private.
+
+The owner directs white or near-white A4 backgrounds, deep navy typography, thin gold dividers, generous whitespace and restrained decoration. Existing palette values remain provisional, and no official logo or tagline is approved by this instruction.

@@ -14,3 +14,11 @@ exports/
 # The source portfolio is deliberately NOT committed to a public brand repository.
 Portfolio_Izzul.pdf
 portfolio-reference.pdf
+# All client material and generated documents stay local.
+*.pdf
+private/
+tmp/
+node_modules/
+*.ttf
+*.woff
+*.woff2

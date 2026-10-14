@@ -1,0 +1,65 @@
+/* Shared A4 quotation layout. Brand values remain in the source token file. */
+@import url('../references/design-tokens.css');
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--izzul-paper); color: var(--izzul-ink); font-family: var(--izzul-font); font-size: 10pt; line-height: 1.45; }
+.sheet { width: 210mm; min-height: 297mm; padding: 16mm 17mm 13mm; margin: 20px auto; background: white; display: flex; flex-direction: column; box-shadow: var(--izzul-shadow); }
+.letterhead { display: flex; justify-content: space-between; gap: 20px; border-bottom: 2px solid var(--izzul-gold); padding-bottom: 14px; margin-bottom: 20px; }
+.identity { font-size: 13pt; font-weight: 700; color: var(--izzul-navy); line-height: 1.35; }
+.role, .contact { font-size: 9pt; margin-top: 5px; }
+.contact { color: var(--izzul-muted); }
+.doc-label { text-align: right; flex-shrink: 0; font-size: 9pt; color: var(--izzul-muted); }
+.doc-label strong { display: block; color: var(--izzul-navy); font-size: 11pt; margin-bottom: 5px; }
+h1, h2, h3 { color: var(--izzul-navy); line-height: 1.25; }
+h1 { font-size: 27pt; letter-spacing: -.03em; margin: 10px 0 12px; }
+h2 { font-size: 19pt; margin: 8px 0 16px; letter-spacing: -.02em; }
+h3 { font-size: 11pt; margin: 20px 0 6px; }
+p { margin: 0 0 12px; }
+.eyebrow { color: var(--izzul-muted); text-transform: uppercase; letter-spacing: .12em; font-size: 8.5pt; font-weight: 700; }
+.subtitle { font-size: 15pt; line-height: 1.4; color: var(--izzul-navy); max-width: 95%; margin-bottom: 20px; }
+.meta { display: grid; grid-template-columns: 1.35fr 1fr; gap: 24px; margin: 18px 0 22px; }
+.meta p { margin: 4px 0; }
+.muted, .note { color: var(--izzul-muted); }
+.note { font-size: 9pt; }
+table { width: 100%; border-collapse: collapse; margin: 12px 0 16px; table-layout: fixed; }
+caption { text-align: left; font-weight: 700; color: var(--izzul-navy); margin-bottom: 8px; }
+thead { display: table-header-group; }
+th { color: var(--izzul-navy); background: var(--izzul-paper); font-size: 8.5pt; text-transform: uppercase; letter-spacing: .04em; }
+th, td { text-align: left; vertical-align: top; padding: 6px 10px; border-bottom: 1px solid var(--izzul-border); overflow-wrap: break-word; }
+th:first-child, td:first-child { padding-left: 0; }
+th:last-child, td:last-child { padding-right: 0; }
+.amount { text-align: right; white-space: nowrap; width: 22%; font-variant-numeric: tabular-nums; }
+.number { width: 6%; color: var(--izzul-muted); }
+.share { text-align: right; width: 14%; }
+td strong { color: var(--izzul-navy); }
+.description { font-size: 9.5pt; line-height: 1.4; margin-top: 3px; color: var(--izzul-muted); }
+.subtotal { font-weight: 700; color: var(--izzul-navy); background: var(--izzul-paper); }
+.total { background: var(--izzul-navy); color: white; border-top: 3px solid var(--izzul-gold); padding: 19px 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 15px 0 10px; }
+.total strong { font-size: 25pt; letter-spacing: -.03em; white-space: nowrap; }
+.words { font-size: 9pt; margin-bottom: 22px; }
+.callout { border-left: 3px solid var(--izzul-gold); padding: 4px 0 4px 15px; margin: 18px 0; }
+.callout p:last-child { margin-bottom: 0; }
+.term { margin-bottom: 11px; break-inside: avoid; }
+.term h3 { margin-top: 0; }
+.term p { margin-bottom: 0; }
+.footer { margin-top: auto; padding-top: 13px; border-top: 1px solid var(--izzul-border); display: flex; justify-content: space-between; gap: 15px; color: var(--izzul-muted); font-size: 8pt; }
+.content { padding-bottom: 16px; }
+tr, .total, .callout { break-inside: avoid; }
+h2, h3 { break-after: avoid; }
+p { orphans: 3; widows: 3; }
+a { color: inherit; text-underline-offset: .15em; }
+@media print {
+  body { background: white; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .sheet { margin: 0; box-shadow: none; break-after: page; }
+  .sheet:last-child { break-after: auto; }
+}
+@media screen and (max-width: 800px) {
+  .sheet { width: 100%; min-height: auto; margin: 0 0 20px; padding: 24px 20px; }
+  .letterhead, .total { flex-wrap: wrap; }
+  .doc-label { text-align: left; }
+  .meta { grid-template-columns: 1fr; gap: 12px; }
+  .total strong { font-size: 23pt; }
+  body { font-size: 12pt; }
+  .description { font-size: 10pt; }
+}

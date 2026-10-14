@@ -1,5 +1,10 @@
 # Changelog
 
+## Quotation workflow extension — 2026-10-15
+- Preserved the v0.2 brand skill, strategy, tokens, provenance and Claude plugin architecture.
+- Added shared A4 quotation CSS, a placeholder-only editable template, Codex instructions and an editing/export guide.
+- Added an optional Chrome/Edge PDF export helper and ignored private outputs, research PDFs and local fonts.
+
 ## 0.2.0 — 2026-10-14
 - Rebuilt the personal brand strategy as **stated preferences vs assistant proposals vs recommendations**.
 - Added page-by-page analysis of all 16 portfolio pages, color sampling notes and accessible adaptation rules.

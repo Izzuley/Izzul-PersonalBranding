@@ -12,7 +12,7 @@ These are **working starter files**, not finalized legal or clinical documents. 
 
 ### Customizing and exporting
 
-1. Copy the selected template and keep its relative link to `../references/design-tokens.css` valid, or update to your new path.
+1. Copy the selected template and keep its stylesheet paths valid. Quotations use `quotation.css`, which imports `../references/design-tokens.css`; other templates link directly to the token file. See [the quotation workflow](../../../docs/quotation-workflow.md) for private output paths and export settings.
 2. Replace every `[PLACEHOLDER]`, including client and financial terms. Treat demo CSS colors as provisional tokens.
 3. Open the HTML locally in a browser and inspect. Print with **background graphics enabled** to preserve navy/gold covers.
 4. For websites, import tokens into the current app theme. The sample has no backend, build framework or routing.

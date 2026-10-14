@@ -6,7 +6,13 @@
 
 This repo is a **standalone Claude Code skill packaged as an optional Claude Code plugin**. It is *not* a website application or a generated logo. The visual reference is the owner's 16-page Canva portfolio PDF; the primary palette, typography and graphic vocabulary are extracted and adapted for more legible everyday business use. OrynLab's GitHub repository is a packaging precedent only, **not the owner's personal identity**.
 
-## What's inside
+## Reusable quotation workflow
+
+Edit `skills/izzul-brand/templates/quotation.html` with shared `quotation.css`, which imports the existing brand tokens. Copy completed work into ignored `private/` folders. Follow [the editing and PDF guide](docs/quotation-workflow.md) for client fields, calculations, pagination, fonts and Chrome/Edge export. An optional Windows export helper is available at `scripts/export-quotation.ps1`; routine use needs no AI or paid service.
+
+Codex users should follow the root `AGENTS.md` and the existing brand skill. Original strategy, references, source provenance and Claude plugin files are preserved. Private research, client outputs and font binaries are excluded from publication.
+
+## Repository contents
 
 | Folder | What it provides |
 |---|---|
