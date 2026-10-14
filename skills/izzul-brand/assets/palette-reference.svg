@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="t d">
+ <title id="t">Provisional personal-brand palette study — not an official logo</title>
+ <desc id="d">A deep navy field, a thin gold stripe, a white and lavender editorial panel, and a cropped violet curve.</desc>
+ <rect width="960" height="440" fill="#100b4d"/>
+ <path d="M-30 455 C110 300 248 425 380 280 C430 235 515 320 590 290 L590 455Z" fill="#9041b8" opacity=".42"/>
+ <path d="M0 470 C130 330 270 450 420 280 C492 223 545 280 600 240" fill="none" stroke="#c786e0" stroke-width="64" opacity=".55"/>
+ <rect x="56" y="52" width="377" height="5" fill="#f8de63"/>
+ <text x="56" y="130" font-family="Arial, sans-serif" font-size="49" font-weight="800" letter-spacing="3" fill="#f8de63">PERSONAL</text>
+ <text x="56" y="186" font-family="Arial, sans-serif" font-size="49" font-weight="800" letter-spacing="3" fill="#f8de63">BRAND</text>
+ <text x="56" y="225" font-family="Arial, sans-serif" font-size="18" letter-spacing="2.5" fill="#ffffff">DERIVED PALETTE STUDY</text>
+ <rect x="650" y="50" width="256" height="340" fill="#ffffff" rx="8"/>
+ <rect x="682" y="89" width="45" height="45" fill="#100b4d"/><text x="737" y="117" font-family="Arial" font-size="16" fill="#1e2140">NAVY</text>
+ <rect x="682" y="148" width="45" height="45" fill="#f8de63"/><text x="737" y="176" font-family="Arial" font-size="16" fill="#1e2140">GOLD</text>
+ <rect x="682" y="207" width="45" height="45" fill="#9041b8"/><text x="737" y="235" font-family="Arial" font-size="16" fill="#1e2140">VIOLET</text>
+ <rect x="682" y="266" width="45" height="45" fill="#c786e0"/><text x="737" y="294" font-family="Arial" font-size="16" fill="#1e2140">LAVENDER</text>
+ <text x="682" y="355" font-family="Arial" font-size="11" fill="#5f6375">PROVISIONAL / NOT A LOGO</text>
+</svg>

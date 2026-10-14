@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quotation | [CLIENT / PROJECT]</title><link rel="stylesheet" href="../references/design-tokens.css">
+<style>
+@page { size:A4; margin:0; }
+html,body{margin:0}body{background:#e8e9f1;font-family:var(--izzul-font);font-size:11px;line-height:1.52;color:var(--izzul-ink)}
+.sheet{width:210mm;min-height:297mm;margin:14px auto;background:#fff;padding:18mm 17mm 15mm;box-shadow:var(--izzul-shadow);display:flex;flex-direction:column;}
+header{display:flex;justify-content:space-between;gap:18px;align-items:start;border-bottom:3px solid var(--izzul-gold);padding-bottom:14px}
+.brand-name{font-size:15px;line-height:1.28}.role{font-size:10px;color:var(--izzul-muted);margin-top:5px}
+h1{font-size:23px;line-height:1.1;color:var(--izzul-navy);text-transform:uppercase;letter-spacing:.04em;margin:0;text-align:right}
+.subheader{color:var(--izzul-muted);font-size:10px;text-align:right;margin-top:6px}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:22px;margin-bottom:16px}.label{color:var(--izzul-muted);text-transform:uppercase;letter-spacing:.1em;font-size:9px;font-weight:700;margin-bottom:4px}.meta p{margin:3px 0}
+h2{color:var(--izzul-navy);text-transform:uppercase;letter-spacing:.055em;font-size:12px;margin:19px 0 8px}
+p{margin:6px 0}table{width:100%;border-collapse:collapse;margin-top:9px;table-layout:fixed}thead{display:table-header-group}th,td{padding:9px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:var(--izzul-paper);text-transform:uppercase;font-size:9px;letter-spacing:.07em;color:var(--izzul-navy)}td{border-bottom:1px solid var(--izzul-border)}th:last-child,td:last-child{text-align:right}th:nth-child(1){width:58%}th:nth-child(2){width:15%}th:nth-child(3){width:27%}
+.total{margin:13px 0 0 auto;min-width:225px;padding:11px 13px;border-top:3px solid var(--izzul-gold);background:var(--izzul-paper);display:flex;justify-content:space-between;gap:18px;font-size:12px;font-weight:700;color:var(--izzul-navy)}
+.terms{font-size:10px;display:grid;grid-template-columns:1fr 1fr;gap:22px}.terms p{margin:5px 0}.foot{margin-top:auto;padding-top:16px;border-top:1px solid var(--izzul-border);display:flex;justify-content:space-between;color:var(--izzul-muted);font-size:9px}
+@media print {body{background:white}.sheet{width:auto;min-height:297mm;margin:0;box-shadow:none;page-break-inside:avoid}a{color:inherit}}@media screen and (max-width:800px){.sheet{width:100%;min-height:unset;margin:0;padding:24px 20px}.meta,.terms{grid-template-columns:1fr}header{flex-wrap:wrap}}
+</style></head>
+<body class="izzul-brand"><main class="sheet" role="document">
+<header><div><div class="brand-name">Muhammad Izzul Islam Faisal</div><div class="role">Data Science · Machine Learning · Explainable AI</div></div><div><h1>Quotation</h1><div class="subheader">Ref: [QUOTE-ID] · Date: [ISSUE-DATE]</div></div></header>
+<div class="meta"><div><div class="label">Prepared for</div><p><strong>[CLIENT-NAME]</strong></p><p>[CLIENT-ORGANIZATION]</p><p>[CLIENT-CONTACT]</p></div><div><div class="label">Project</div><p><strong>[PROJECT-TITLE]</strong></p><p>Validity: [VALID-UNTIL]</p><p>Prepared by: [CONSULTING-NAME-OR-LEGAL-ENTITY]</p></div></div>
+<section><h2>Objective & scope</h2><p>[ONE-TO-THREE-SENTENCE-PROBLEM-AND-OUTCOME]</p><p><strong>Assumptions:</strong> [DATA-ACCESS-AND-SCOPE-ASSUMPTIONS]</p></section>
+<section><h2>Quoted deliverables</h2><table><thead><tr><th scope="col">Deliverable / acceptance criteria</th><th scope="col">Timing</th><th scope="col">Fee</th></tr></thead><tbody><tr><td><strong>[DELIVERABLE-ONE]</strong><div>[EVIDENCE-OF-COMPLETION]</div></td><td>[DURATION]</td><td>[AMOUNT]</td></tr><tr><td><strong>[DELIVERABLE-TWO]</strong><div>[EVIDENCE-OF-COMPLETION]</div></td><td>[DURATION]</td><td>[AMOUNT]</td></tr><tr><td><strong>[OPTIONAL-DELIVERABLE]</strong><div>[INCLUDE-OR-REMOVE-ROW]</div></td><td>[DURATION]</td><td>[AMOUNT]</td></tr></tbody></table><div class="total"><span>Total quoted</span><span>[CURRENCY] [TOTAL]</span></div></section>
+<section><h2>Scope boundaries</h2><p><strong>Included:</strong> [INCLUDED-WORK]</p><p><strong>Excluded:</strong> [EXCLUSIONS-SUCH-AS-DEPLOYMENT-OR-EXTERNAL-VALIDATION]</p></section>
+<section><h2>Commercial terms</h2><div class="terms"><div><p><strong>Payment:</strong> [MILESTONES-AND-PAYMENT-TIMING]</p><p><strong>Revisions:</strong> [NUMBER-AND-SCOPE]</p></div><div><p><strong>Delivery:</strong> [FILE-FORMATS-AND-HANDOVER]</p><p><strong>Confidentiality / IP:</strong> [AGREED-TERMS]</p></div></div></section>
+<footer class="foot"><span>Quotation · [QUOTE-ID] · Prepared for [CLIENT-NAME]</span><span>[APPROVED-CONTACT-METHOD]</span></footer>
+</main></body></html>
