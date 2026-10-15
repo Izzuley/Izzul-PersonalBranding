@@ -1,5 +1,11 @@
 # Changelog
 
+## Separate allocation quotation extension — 2026-10-15
+- Added a reusable quotation template for development, cloud consumption and recurring maintenance, using the existing shared brand CSS.
+- Added typographic business-issuer and project-representative fields without embedding client details.
+- Added allocation cards, financial reconciliation, maintenance scope/limits and a concise manual editing guide.
+- Clarified issuer authorization and independent financial checks in Codex instructions.
+
 ## Quotation workflow extension — 2026-10-15
 - Preserved the v0.2 brand skill, strategy, tokens, provenance and Claude plugin architecture.
 - Added shared A4 quotation CSS, a placeholder-only editable template, Codex instructions and an editing/export guide.

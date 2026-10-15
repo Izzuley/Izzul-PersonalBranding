@@ -49,6 +49,23 @@ tr, .total, .callout { break-inside: avoid; }
 h2, h3 { break-after: avoid; }
 p { orphans: 3; widows: 3; }
 a { color: inherit; text-underline-offset: .15em; }
+/* Optional three-allocation layout for implementation, consumption and support. */
+.allocation-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 22px 0; }
+.allocation-card { padding: 15px 12px; background: var(--izzul-paper); border-top: 2px solid var(--izzul-gold); break-inside: avoid; }
+.allocation-card h3 { font-size: 9pt; margin: 0 0 12px; text-transform: uppercase; letter-spacing: .035em; min-height: 2.5em; }
+.allocation-value { display: block; color: var(--izzul-navy); font-size: 21pt; font-weight: 700; letter-spacing: -.04em; white-space: nowrap; }
+.allocation-unit { color: var(--izzul-navy); font-size: 10pt; font-weight: 700; }
+.allocation-card p { font-size: 9pt; margin: 9px 0 0; }
+.section-total { display: flex; justify-content: space-between; gap: 15px; padding: 13px 15px; margin: 18px 0; background: var(--izzul-paper); color: var(--izzul-navy); border-top: 2px solid var(--izzul-gold); font-weight: 700; }
+.two-column { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.clean-list { margin: 6px 0 18px; padding-left: 18px; }
+.clean-list li { margin-bottom: 5px; }
+.maintenance-table .amount { width: 19%; }
+.conditions-table th:first-child { width: 35%; }
+.business-name { font-size: 19pt; font-weight: 700; letter-spacing: .025em; color: var(--izzul-navy); line-height: 1.2; }
+.representative { margin: 0 0 19px; font-size: 9pt; line-height: 1.5; }
+.reconciliation .amount { width: 25%; }
+.compact-terms .term { margin-bottom: 7px; }
 @media print {
   body { background: white; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
   .sheet { margin: 0; box-shadow: none; break-after: page; }
@@ -59,6 +76,7 @@ a { color: inherit; text-underline-offset: .15em; }
   .letterhead, .total { flex-wrap: wrap; }
   .doc-label { text-align: left; }
   .meta { grid-template-columns: 1fr; gap: 12px; }
+  .allocation-grid, .two-column { grid-template-columns: 1fr; }
   .total strong { font-size: 23pt; }
   body { font-size: 12pt; }
   .description { font-size: 10pt; }

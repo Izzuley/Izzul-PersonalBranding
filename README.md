@@ -12,6 +12,8 @@ Edit `skills/izzul-brand/templates/quotation.html` with shared `quotation.css`, 
 
 Codex users should follow the root `AGENTS.md` and the existing brand skill. Original strategy, references, source provenance and Claude plugin files are preserved. Private research, client outputs and font binaries are excluded from publication.
 
+For separate development, cloud consumption and recurring maintenance, use `skills/izzul-brand/templates/quotation-allocations.html`. Its overview gives each allocation equal prominence and reconciles the full-term values. Follow [the concise editing guide](docs/QUOTATION_EDITING_GUIDE.md) for issuer/representative details, manual calculations and PDF export.
+
 ## Repository contents
 
 | Folder | What it provides |

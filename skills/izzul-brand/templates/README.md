@@ -5,6 +5,7 @@ These are **working starter files**, not finalized legal or clinical documents. 
 | Template | Intended use | Notes |
 |---|---|---|
 | `quotation.html` | A4 customer quotation | User supplies currency, amounts, client, scope, validity, payment terms |
+| `quotation-allocations.html` | A4 development, infrastructure and maintenance quotation | Separate issuer/representative, one-time and recurring fees, cloud consumption, support limits and reconciliation |
 | `proposal.html` / `proposal.md` | A4 proposal | Business value first, explicit acceptance criteria and exclusions |
 | `technical-report.html` / `technical-report.md` | Research/ML report | Validation/evaluation/limitations, not unverified medical conclusions |
 | `presentation.html` / `presentation.md` | 16:9 slides | Slide-style HTML; browser print to PDF; not a `.pptx` master |

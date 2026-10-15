@@ -10,4 +10,8 @@ For each quotation, verify item subtotals, grand total, milestone percentages an
 
 HTML is the editable source; no server or AI API is needed. Print at A4 / 100%, with browser headers and footers disabled and background graphics enabled. Each `.sheet` is an explicit page; split long content into another sheet rather than reducing body text. Update all page labels after adding pages. Check every exported PDF page visually and confirm A4 dimensions and font embedding.
 
+Where explicitly authorized, distinguish the commercial issuer from the project representative and the source of the visual styling. Use confirmed registration details only in private client outputs. A supplied registration number does not establish contractual signing authority, tax status, bank details or corporate form. Preserve the original brand references; do not infer a business logo from the personal design system.
+
+For development/hosting/maintenance quotations, start with `quotation-allocations.html`. Show the one-time development fee, cloud-consumption provision and recurring support fee separately. Reconcile their full-term values without treating direct-billed infrastructure as provider revenue. Multiply every monthly allocation by the contract duration, sum the components independently and resolve conflicting totals before finalization. Distinguish defect warranty from paid maintenance, and state support-hour limits and separately approved additional work. See `docs/QUOTATION_EDITING_GUIDE.md`.
+
 Run `python -X utf8 scripts/validate_package.py`, review staged files for privacy, and verify the remote and branch before pushing. Public documentation must not include private client details or commercial amounts.
